@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Разрешите Gold Fitness доступ к вашей камере."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Приложение получает доступ к вашим фотографиям, чтобы вы могли вставить фото профиля"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "14.0"
+          }
+        }
+      ],
+      "expo-video"
+    ],
+    "name": "Gold Fitness",
+    "slug": "gold_fitness",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/preview/app_logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#111214"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.portmasterplus.goldfitness",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Разрешите Gold Fitness доступ к вашим фотографиям",
+        "NSCameraUsageDescription": "Разрешите Gold Fitness доступ к вашей камере",
+        "NSMicrophoneUsageDescription": "«Разрешите Gold Fitness доступ к вашему микрофону»",
+        "UIBackgroundModes": ["fetch"],
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "userInterfaceStyle": "automatic",
+      "versionCode": 18,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.portmasterplus.gold_fitness_kz"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2e291c0b-5bf4-4986-a229-cdb9cc538f5f"
+      }
+    }
+  }
+}

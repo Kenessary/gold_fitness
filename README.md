@@ -3,10 +3,6 @@ An application for the Gold Fitness center that provides convenient tools for tr
 For trainers: The ability to manage their client list, track their progress and achievements, and create personalized training plans.
 For clients: The ability to purchase memberships, sign up for group classes through the built-in calendar, and track personal achievements.
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:

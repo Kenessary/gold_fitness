@@ -23,4 +23,5 @@ Builds your Expo project for iOS/Android using Expo Application Services (EAS) i
 ### `eas submit`
 Used to upload your built app (.ipa for iOS, .aab for Android) to the App Store or Google Play
 
-Stacks: React Native, Expo, Expo CLI, Axios, JavaScript, Node.js, JSX, Context API
+# Stacks: 
+React Native, Expo, Expo CLI, Axios, JavaScript, Node.js, JSX, Context API
